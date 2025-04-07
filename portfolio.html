@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>portfolio</title>
+  <style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+  }
+  .button-group {
+    margin: 20px 0;
+  }
+  .button-group a {
+    text-decoration: none;
+    border: 2px solid #976b38;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    color: #a56b00;
+    font-weight: bold;
+    transition: all 0.3s;
+  }
+  .button-group a:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  h1 {
+    margin-bottom: 0;
+    font-size: 28px;
+  }
+  p.school {
+    color: purple;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  h2.quote {
+    font-size: 22px;
+    color: #333;
+    margin-top: 30px;
+  }
+  button {
+    margin-top: 15px;
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #aa4400;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #aa4400;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="อึ่งไขดิสเครดิต.jpg" alt="รูปภาพโปรไฟล์">
+    <div class="button-group">
+      <a href="แนะนำตัว.html">It's me</a>
+      <a href="page3.html">my type?</a>
+      <a href="page2.html">Contact</a>
+    </div>
+    <h1>PENNUENG</h1>
+    <p class="school">ปัจจุบันเรียนอยู่ที่ VBAC Ramintra กำลังขึ้นปี3
+        
+    </p>
+    <h2 class="quote" id="quote">"จงเป็นตัวของตัวเอง เพราะคนอื่นเขาถูกจับจองไปหมดแล้ว"</h2>
+    <button onclick="changeQuote()">เปลี่ยนคำคม</button>
+  </div>
+  <script src="js.js"></script>
+</body>
+</html>
